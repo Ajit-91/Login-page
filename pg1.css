@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://images.pexels.com/photos/73873/star-clusters-rosette-nebula-star-galaxies-73873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.glass{
+    height: 500px;
+    width: 400px;
+    margin: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.445);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(9px);
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.397);
+}
+hr{
+    margin-bottom: 30px;
+}
+.glass h1, h3,h5{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+.glass input{
+    position: relative;
+    left: 26%;
+    padding: 4px;
+    width: 50%;
+    height: 6%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.719);
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.glass input:hover{
+    box-shadow: 0.5px 0.5px 5px 1px rgba(0, 0, 0, 0.514);
+}
+.glass .button {
+    height: 5%;
+    width: 25%;
+    margin-left: 38%;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 10px;
+}
+.glass .button a{
+    font-size: 95%;
+    text-decoration: none;
+    
+}
+.glass .button:hover{
+    background-color: rgb(202, 202, 202);
+    border: 0px solid black;
+    box-shadow: 1px 1px 10px 1px rgba(3, 3, 3, 0.404);
+
+}
+.glass .button a:hover{
+    text-decoration: underline;
+    transition: 0.2 ease-in-out;
+}
+.glass a{
+    text-decoration: none;
+}
+.glass a:hover{
+    text-decoration: underline;
+}
